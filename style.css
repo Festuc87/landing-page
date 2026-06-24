@@ -1,0 +1,73 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+.sectext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hlogotext {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero1 {
+    width: 400px;
+}
+
+.hero2 {
+    width: 450px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+li {
+    margin-left: 40px; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.content1 {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+}
+
+.maintitle {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+button {
+    font-weight: bold;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 0;
+    color: #E5E7EB;
+    padding: 5px 20px;
+}
