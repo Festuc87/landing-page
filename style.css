@@ -1,10 +1,12 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 .sectext {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #a2a4a8;
 }
 .hlogotext {
     font-size: 24px;
@@ -22,11 +24,10 @@ body {
 }
 
 .hero2 {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.4);
     width: 450px;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: 100px;
 }
 
@@ -66,16 +67,99 @@ li {
 button {
     font-weight: bold;
     background-color: #3882F6;
-    border-radius: 5px;
     border: 0;
+    border-radius: 5px;
     color: #E5E7EB;
     padding: 5px 20px;
-    margin-top: 25px;
 }
 
-img {
-    border: 1px solid #ddd;
+.actividades {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.imgp {
+    border: 1px solid #1F2937; 
     border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.4);
-    width: 450px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    width: 150px;
+    height: 150px;    
+}
+
+.act {
+    width: 200px;
+    margin: 20px;
+}
+
+.title {
+    font-size: 38px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.comentarios {
+    padding: 50px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opinion {
+    width: 800px;
+}
+.autor {
+    width: 800px;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.call {
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+.button2 {
+    border: 1px solid white;
+    height: fit-content;
+    align-self: center;
+}
+
+.textcall {
+    color: #F9FAF8;
+    margin: 15px 30px;
+}
+
+.reg {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.regtext {
+    margin-top: 0;
+}
+
+.footer {
+    color: #F9FAF8;
+    font-size: 18px;
+    background-color: #1F2937;
+    padding: 40px;
+    text-align: center;
 }
